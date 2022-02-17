@@ -28,7 +28,7 @@ public class TodoResource {
         this.id = id;
     }
 
-    //Application integration
+    //Application integratio
     @GET
     @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public Todo getTodo() {
