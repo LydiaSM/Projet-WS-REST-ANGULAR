@@ -11,7 +11,7 @@ public class DetailPanier {
 		this.idPanier = idPanier;
 		this.idArticle = idArticle;
 		this.idDetail = idDetail;
-		this.quantity = quantity; 
+		this.quantity = quantity;
 	}
 	
 	
