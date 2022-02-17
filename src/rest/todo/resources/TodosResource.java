@@ -54,7 +54,7 @@ public class TodosResource {
 
     // retuns the number of todos
     // Use http://localhost:8080/com.vogella.jersey.todo/rest/todos/count
-    // to get the total number of recordss
+    // to get the total number of records
     @GET
     @Path("count")
     @Produces(MediaType.TEXT_PLAIN)
