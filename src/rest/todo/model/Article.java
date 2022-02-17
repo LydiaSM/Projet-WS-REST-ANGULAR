@@ -1,15 +1,13 @@
 package rest.todo.model;
-
-
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class Article {
-    private int id;
+    private int idarticle;
     private String label;
     private String marque;
     private String prix;
-    private  Categorie categorie;
+    private Categorie categorie;
     private String photo;
 
     public Article(){
