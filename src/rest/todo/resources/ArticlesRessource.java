@@ -62,7 +62,7 @@ public class ArticlesRessource {
     @Produces(MediaType.TEXT_HTML)
     @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
     public void newTodo(@FormParam("id") String id,
-            @FormParam("summary") String summary,
+            @FormParam("summary") String label,
             @FormParam("description") String description,
             @Context HttpServletResponse servletResponse) throws IOException {
         Article todo = new Article(id, summary);
