@@ -2,6 +2,8 @@ package rest.todo.dao;
 
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
+
 import com.mysql.jdbc.Connection;
 
 public class ConnexionDB {
@@ -20,9 +22,15 @@ public class ConnexionDB {
          // TODO Auto-generated catch block
          e.printStackTrace();
          return(null);
-     }
+     } 
 
     }
+
+
+public Statement createStatement() {
+	// TODO Auto-generated method stub
+	return null;
+}
 
    /* public static void main(String[] args) {
        // Open a connection
