@@ -2,18 +2,16 @@ package rest.todo.model;
 
 
 public class DetailPanier {
-	private int idPanier;
-	private int idArticle;
-	private int idDetail;
-	private int quantity;
-	public DetailPanier(int idPanier, int idArticle, int idDetail, int quantity) {
+	private int idpanier;
+	private int idarticle;
+	private int iddetail;
+	private int quantite;
+	
+	public DetailPanier(int idpanier, int idarticle, int iddetail, int quantite) {
 		super();
-		this.idPanier = idPanier;
-		this.idArticle = idArticle;
-		this.idDetail = idDetail;
-		this.quantity = quantity;
+		this.idpanier = idpanier;
+		this.idarticle = idarticle;
+		this.iddetail = iddetail;
+		this.quantite = quantite;
 	}
-	
-	
-
 }

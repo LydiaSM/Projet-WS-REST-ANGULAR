@@ -6,7 +6,7 @@ public class Panier {
 	  
 	public Panier(int idpanier, double prixtotal) {
 		this.idpanier = idpanier;
-		this.prixTotal = prixtotal;
+		this.prixtotal = prixtotal;
 	}
 
 	public int getIdpanier() {
