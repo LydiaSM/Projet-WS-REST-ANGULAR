@@ -1,6 +1,7 @@
 package rest.todo.dao;
 
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -10,29 +11,21 @@ public class ConnexionDB {
 	static final String DB_URL = "jdbc:mysql://localhost/projetarchi";
     static final String USER = "root";
     static final String PASS = "";
-
-
-  public Connection getDBConnection() {
-
+    static final String QUERY = "SELECT id, first, last, age FROM Registration";
+  public static Connection getDBConnection() {
      Connection conn;
      try {
          conn = (Connection) DriverManager.getConnection(DB_URL, USER, PASS);
-          return(conn);
+         return(conn);
      } catch (SQLException e) {
          // TODO Auto-generated catch block
          e.printStackTrace();
          return(null);
-     } 
-
+     }
     }
+  
 
-
-public Statement createStatement() {
-	// TODO Auto-generated method stub
-	return null;
-}
-
-   /* public static void main(String[] args) {
+    public static void main(String[] args) {
        // Open a connection
        try {
           Statement stmt = getDBConnection().createStatement();
@@ -47,5 +40,5 @@ public Statement createStatement() {
            e.getMessage();
           e.printStackTrace();
        } 
-    }*/
+    }
 }
