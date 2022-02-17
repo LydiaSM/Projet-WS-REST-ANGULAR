@@ -38,7 +38,7 @@ public class TodoResource {
         return todo;
     }
 
-    // for the browser
+    // for the browser //jlklmlm
     @GET
     @Produces(MediaType.TEXT_XML)
     public Article getTodoHTML() {
