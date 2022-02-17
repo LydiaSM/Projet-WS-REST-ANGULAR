@@ -11,17 +11,15 @@ public class ConnexionDB {
 
 
   public Connection getDBConnection() {
-
      Connection conn;
      try {
          conn = (Connection) DriverManager.getConnection(DB_URL, USER, PASS);
-          return(conn);
+         return(conn);
      } catch (SQLException e) {
          // TODO Auto-generated catch block
          e.printStackTrace();
          return(null);
      }
-
     }
 
    /* public static void main(String[] args) {
