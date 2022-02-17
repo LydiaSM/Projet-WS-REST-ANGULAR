@@ -14,8 +14,9 @@ public class Article {
 
     }
 
-	public Article(int id, String label, String marque, String prix, Categorie categorie, String photo) {
-		this.id = id;
+	public Article(int idarticle, String label, String marque, String prix, Categorie categorie, String photo) {
+		super();
+		this.idarticle = idarticle;
 		this.label = label;
 		this.marque = marque;
 		this.prix = prix;
@@ -23,12 +24,12 @@ public class Article {
 		this.photo = photo;
 	}
 
-	public int getId() {
-		return id;
+	public int getIdarticle() {
+		return idarticle;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setIdarticle(int idarticle) {
+		this.idarticle = idarticle;
 	}
 
 	public String getLabel() {
@@ -70,6 +71,5 @@ public class Article {
 	public void setPhoto(String photo) {
 		this.photo = photo;
 	}
-    
 
 }
