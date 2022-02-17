@@ -9,7 +9,6 @@ public class ConnexionDB {
     static final String USER = "root";
     static final String PASS = "";
 
-
   public Connection getDBConnection() {
      Connection conn;
      try {
