@@ -8,7 +8,6 @@ public class Utilisateur {
 	
 	
 	public Utilisateur(int idutilisateur, String login, String mdp, String role) {
-		super();
 		this.idutilisateur = idutilisateur;
 		this.login = login;
 		this.mdp = mdp;
