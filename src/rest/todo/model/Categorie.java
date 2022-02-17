@@ -1,6 +1,7 @@
 package rest.todo.model;
 
 public enum Categorie {
+	
 	PC_Portable,
 	PC_Bureau,
 	Accessoires_ordinateurs,
