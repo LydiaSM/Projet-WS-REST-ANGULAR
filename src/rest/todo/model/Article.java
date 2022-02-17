@@ -15,7 +15,6 @@ public class Article {
     }
 
 	public Article(int id, String label, String marque, String prix, Categorie categorie, String photo) {
-		super();
 		this.id = id;
 		this.label = label;
 		this.marque = marque;
