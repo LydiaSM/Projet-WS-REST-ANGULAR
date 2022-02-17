@@ -3,7 +3,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class Article {
-    private int idarticle;
+    private int idArticle;
     private String label;
     private String marque;
     private String prix;
@@ -14,9 +14,9 @@ public class Article {
 
     }
 
-	public Article(int idarticle, String label, String marque, String prix, Categorie categorie, String photo) {
+	public Article(int idArticle, String label, String marque, String prix, Categorie categorie, String photo) {
 		super();
-		this.idarticle = idarticle;
+		this.idArticle = idArticle;
 		this.label = label;
 		this.marque = marque;
 		this.prix = prix;
@@ -24,12 +24,12 @@ public class Article {
 		this.photo = photo;
 	}
 
-	public int getIdarticle() {
-		return idarticle;
+	public int getIdArticle() {
+		return idArticle;
 	}
 
-	public void setIdarticle(int idarticle) {
-		this.idarticle = idarticle;
+	public void setIdArticle(int idArticle) {
+		this.idArticle = idArticle;
 	}
 
 	public String getLabel() {

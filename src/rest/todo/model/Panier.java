@@ -1,28 +1,29 @@
 package rest.todo.model;
 
 public class Panier {
-	private int idpanier;
-	private double prixtotal;
-	  
-	public Panier(int idpanier, double prixtotal) {
-		this.idpanier = idpanier;
-		this.prixtotal = prixtotal;
+	private int idPanier;
+	private double prixTotal;
+	
+	public Panier(int idPanier, double prixTotal) {
+		super();
+		this.idPanier = idPanier;
+		this.prixTotal = prixTotal;
 	}
 
-	public int getIdpanier() {
-		return idpanier;
+	public int getIdPanier() {
+		return idPanier;
 	}
 
-	public void setIdpanier(int idpanier) {
-		this.idpanier = idpanier;
+	public void setIdPanier(int idPanier) {
+		this.idPanier = idPanier;
 	}
 
-	public double getPrixtotal() {
-		return prixtotal;
+	public double getPrixTotal() {
+		return prixTotal;
 	}
 
-	public void setPrixtotal(double prixtotal) {
-		this.prixtotal = prixtotal;
+	public void setPrixTotal(double prixTotal) {
+		this.prixTotal = prixTotal;
 	}
 	
 }
