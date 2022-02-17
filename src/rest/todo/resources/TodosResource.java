@@ -23,7 +23,7 @@ import rest.todo.model.Todo;
 
 
 
-/// Will map the resource to the URL todos
+/// Will map the resour to the URL todos
 @Path("/todos")
 public class TodosResource {
 
