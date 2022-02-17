@@ -19,4 +19,8 @@ public class DetailPanier {
 	public void supprimerArticle() {
 		this.quantite -- ;
 	}
+	
+	public void ajouterArticle(int idArticle) {
+		
+	}
 }
